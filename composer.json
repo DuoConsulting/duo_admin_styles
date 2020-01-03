@@ -1,0 +1,8 @@
+{
+  "name": "DuoConsulting/duo_admin_styles",
+  "description": "A Drupal 8 module that defines administrative styles.",
+  "type": "drupal-module",
+  "keywords": ["Drupal", "Admin", "Styles"],
+  "homepage": "https://www.duoconsulting.com",
+  "license": "GPL-2.0+"
+}
