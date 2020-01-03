@@ -1,0 +1,28 @@
+body {
+  font: 400 85.3%/1.538em 'Roboto', 'Lucida Sans Unicode', 'DejaVu Sans',
+    'Lucida Sans', sans-serif !important;
+  color: #616161 !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+label {
+  font-weight: 700 !important;
+}
+
+.system-modules label,
+.system-modules-uninstall label {
+  font-size: inherit !important;
+}
+
+/* Admin toolbar --> make smaller */
+/* .toolbar .toolbar-item,
+.toolbar-tray a {
+  padding: 0.75em 1.25em !important;
+}
+
+.toolbar .toolbar-icon {
+  padding-left: 2.75em !important;
+}
+.toolbar-menu .toolbar-menu .toolbar-icon {
+  padding-left: 1.25em !important;
+} */

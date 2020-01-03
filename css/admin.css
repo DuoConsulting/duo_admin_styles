@@ -1,0 +1,31 @@
+/*
+  * @admin.css
+  * Admin elements
+  */
+
+/* Toolbar tweaks: */
+
+.toolbar-oriented .toolbar-tray {
+  top: auto !important;
+}
+#toolbar-item-administration-search-tray label {
+  color: white !important;
+}
+
+.toolbar-themes-admin-theme--seven
+  #toolbar-item-administration-search-tray
+  input {
+  width: 97%;
+}
+/* Missing search svg icon */
+#toolbar-item-administration-search .toolbar-icon {
+  background: url("../images/search.svg") center bottom / cover no-repeat;
+}
+/* Hide empty tab (icon is a drop in circle) - this is very specific */
+.toolbar-tab:nth-child(5) {
+  display: none !important;
+}
+
+h1.page-title {
+  color: #616161 !important;
+}

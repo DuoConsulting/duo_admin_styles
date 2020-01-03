@@ -1,0 +1,12 @@
+admin_styles:
+  css:
+    component:
+      "//fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&display=swap":
+        { type: external }
+      css/type.css: {}
+      css/admin.css: {}
+      css/menus.css: {}
+  js:
+    js/scripts.js: {}
+  dependencies:
+    - core/jquery
