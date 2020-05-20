@@ -9,8 +9,8 @@
  * Implements hook_preprocess_hook().
  */
 function duo_admin_styles_page_attachments(array &$attachments) {
-  $is_admin = \Drupal::service('router.admin_context')->isAdminRoute();
-  if ($is_admin) {
+    if (!\Drupal::currentUser()->hasPermission('access contextual links')) {
+      return;
+    }
     $attachments['#attached']['library'][] = 'duo_admin_styles/admin_styles';
-  }
 }
