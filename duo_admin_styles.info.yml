@@ -3,3 +3,4 @@ type: module
 description: Styles to enhance the default admin theme - Seven.
 package: Duo
 core: 8.x
+core_version_requirement: ^8 || ^9
